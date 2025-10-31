@@ -117,7 +117,7 @@ class GeminiHelper:
 
     def consult_treatment(self, query: str):
         system_prompt = (
-            "Bạn là trợ lý AI phác thảo lộ trình điều trị bệnh trên cây mía, được tạo ra bởi các bạn học sinh và thầy cô trường THCS Trung Thành – Tuyên Quang. "
+            "Bạn là trợ lý AI phác thảo lộ trình điều trị bệnh trên cây mía, được tạo ra bởi các bạn học sinh và thầy cô trường THCS Trung Thành - Linh Hồ - Tuyên Quang "
             "Nhiệm vụ của bạn là chuyên gia bệnh cây mía Việt Nam, chỉ tư vấn về các loại bệnh trên cây mía như khảm lá, thối đỏ, gỉ sắt, vàng lá và các vấn đề sinh lý dinh dưỡng của cây mía. "
             "Yêu cầu thông tin phải chính xác, đúng khoa học và phù hợp với điều kiện nông nghiệp Việt Nam, được tổng hợp từ các tài liệu uy tín. "
             "Nếu người dùng hỏi chủ đề khác ngoài các loại bệnh trên cây mía, trả lời khéo không có thông tin thay vì bịa đặt. "
@@ -341,7 +341,7 @@ def main():
     # Tiêu đề ứng dụng
     st.markdown("""
     <div style ="text-align:center">
-    <img src="https://sf-static.upanhlaylink.com/img/image_20251027d199ac4adc205e0504935e92af7dd8a1.jpg" style="width:auto; height:200px; border-radius:5px;">
+    <img src="https://sf-static.upanhlaylink.com/img/image_202510310285dd7bec2419b8afc27328f54ecb6b.jpg" style="width:auto; height:200px; border-radius:5px;">
     </div>
     """, unsafe_allow_html=True)
     st.markdown("""
@@ -380,7 +380,7 @@ def main():
             <b>🎯 Đề tài:</b> AI NHẬN DIỆN VÀ PHÁC THẢO ĐIỀU TRỊ BỆNH CÂY MÍA  
             <br>
             <br>
-            <b>🏫 Đơn vị thực hiện:</b> Trường THCS Trung Thành – Tuyên Quang  
+            <b>🏫 Đơn vị thực hiện:</b> Trường THCS Trung Thành - Linh Hồ - Tuyên Quang
             <br>
             <br>
             <b>👨‍🏫 Giáo viên hướng dẫn:</b> Lê Quang Phúc, Nguyễn Thị Lý  
@@ -477,7 +477,7 @@ def main():
             AI PHÁC THẢO ĐIỀU TRỊ
         </h3>
         ''', unsafe_allow_html=True)
-        st.markdown(f'<div class="chat-message chat-assistant">Xin chào tôi là trợ lý ảo do nhóm học sinh Trường THCS Trung Thành – Tuyên Quang tạo ra!</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="chat-message chat-assistant">Xin chào tôi là trợ lý ảo do nhóm học sinh Trường THCS Trung Thành - Linh Hồ - Tuyên Quang tạo ra!</div>', unsafe_allow_html=True)
         st.markdown(f'<div class="chat-message chat-assistant">Tôi có thể đồng hành với bạn để hướng dẫn bạn điều trị các bệnh trên cây mía.</div>', unsafe_allow_html=True)
 
         if gemini:
@@ -506,12 +506,12 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style ="text-align: center; gap: 0.5cm;">
-    <img src="https://sf-static.upanhlaylink.com/img/image_2025102510ade85883871ec5ef61bbd51e2d62c3.jpg" style="margin:3cm 0 0.5cm 0; width:auto; height:400px; border-radius:5px;">
-    <img src="https://sf-static.upanhlaylink.com/img/image_202510254eab585eca869553b497f7ae99f2c212.jpg" style="margin:3cm 0 0.5cm 0; width:auto; height:400px; border-radius:5px;">
+    <img src="https://sf-static.upanhlaylink.com/img/image_202510316918e70e4703576f598f7df06aebff0d.jpg" style="margin:3cm 0 0.5cm 0; width:auto; height:400px; border-radius:5px;">
+    <img src="https://sf-static.upanhlaylink.com/img/image_202510319b70d221d71726aa2acfdae6adc45fdc.jpg" style="margin:3cm 0 0.5cm 0; width:auto; height:400px; border-radius:5px;">
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown('<p style="text-align: center;"> <strong style="color:darkblue">Tác giả dự án:</strong> Nhóm nghiên cứu Trường THCS Trung Thành – Tuyên Quang</p>', unsafe_allow_html=True)
+    st.markdown('<p style="text-align: center;"> <strong style="color:darkblue">Tác giả dự án:</strong> Nhóm nghiên cứu Trường THCS Trung Thành - Linh Hồ - Tuyên Quang</p>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center;"> <strong style="color:red">Học sinh thực hiện:</strong> Đặng Tiến Huynh, Trần Thành Hưng</p>', unsafe_allow_html=True)
     st.markdown('<p style="text-align: center;"> <strong style="color:red">Giáo viên hướng dẫn:</strong> Lê Quang Phúc, Nguyễn Thị Lý</p>', unsafe_allow_html=True)
 if __name__ == "__main__":

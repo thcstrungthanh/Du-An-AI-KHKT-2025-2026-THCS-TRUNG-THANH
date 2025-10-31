@@ -341,13 +341,8 @@ def main():
     # Tiêu đề ứng dụng
     st.markdown("""
     <div style ="text-align:center">
-    <img src="https://sf-static.upanhlaylink.com/img/image_202510310285dd7bec2419b8afc27328f54ecb6b.jpg" style="width:auto; height:200px; border-radius:5px;">
+    <img src="https://sf-static.upanhlaylink.com/img/image_2025103159ec39cc962615b8a59c50987ff05b2f.jpg" style="width:80%; height:auto; border-radius:5px;">
     </div>
-    """, unsafe_allow_html=True)
-    st.markdown("""
-        <div style="text-align: center; color:darkblue; font-weight:bold; margin-bottom:0.5cm;">
-            <h2>AI NHẬN DIỆN VÀ PHÁC THẢO ĐIỀU TRỊ BỆNH CÂY MÍA</h2>
-        </div>
     """, unsafe_allow_html=True)
     # Thanh bên (Sidebar)
     with st.sidebar:

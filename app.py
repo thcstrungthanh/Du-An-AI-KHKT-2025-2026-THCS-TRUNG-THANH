@@ -341,7 +341,7 @@ def main():
     # Tiêu đề ứng dụng
     st.markdown("""
     <div style ="text-align:center">
-    <img src="https://sf-static.upanhlaylink.com/img/image_2025103159ec39cc962615b8a59c50987ff05b2f.jpg" style="width:80%; height:auto; border-radius:5px;">
+    <img src="https://sf-static.upanhlaylink.com/img/image_2025103159ec39cc962615b8a59c50987ff05b2f.jpg" style="width:80%; height:auto;margin-bottom:2cm; margin-top:0.5cm; border-radius:5px;">
     </div>
     """, unsafe_allow_html=True)
     # Thanh bên (Sidebar)

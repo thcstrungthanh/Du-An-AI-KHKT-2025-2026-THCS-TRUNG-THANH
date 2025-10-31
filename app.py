@@ -501,8 +501,8 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style ="text-align: center; gap: 0.5cm;">
-    <img src="https://sf-static.upanhlaylink.com/img/image_202510316918e70e4703576f598f7df06aebff0d.jpg" style="margin:3cm 0 0.5cm 0; width:auto; height:400px; border-radius:5px;">
-    <img src="https://sf-static.upanhlaylink.com/img/image_202510319b70d221d71726aa2acfdae6adc45fdc.jpg" style="margin:3cm 0 0.5cm 0; width:auto; height:400px; border-radius:5px;">
+    <img src="https://sf-static.upanhlaylink.com/img/image_202510316918e70e4703576f598f7df06aebff0d.jpg" style="margin:3cm 0 0.5cm 0; width:40%; height:auto; border-radius:5px;">
+    <img src="https://sf-static.upanhlaylink.com/img/image_202510319b70d221d71726aa2acfdae6adc45fdc.jpg" style="margin:3cm 0 0.5cm 0; width:40%; height:auto; border-radius:5px;">
     </div>
     """, unsafe_allow_html=True)
     
